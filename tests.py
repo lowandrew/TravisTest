@@ -2,6 +2,7 @@ import unittest
 from code import is_even
 from code import dependency_check
 
+
 class Test(unittest.TestCase):
     def test_even(self):
         self.assertTrue(is_even(4))
