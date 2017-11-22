@@ -8,4 +8,4 @@ install:
   - tar xf bcftools-1.6.tar.bz2
   - cd bcftools-1.6 && ./configure --prefix /usr && make && sudo make install
 script:
-  - python tests.py
+  - python ../tests.py
