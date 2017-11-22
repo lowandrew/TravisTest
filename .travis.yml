@@ -8,6 +8,6 @@ install:
 before_script:
   - wget https://github.com/samtools/bcftools/releases/download/1.6/bcftools-1.6.tar.bz2 -O /home/bcftools.tar.bz2
   - tar xf /home/bcftools.tar.bz2
-  - cd /home/bcftools-1.6 && ./configure --prefix /home && make && make install
+  - cd /home/bcftools && ./configure --prefix /home && make && make install
 script:
   - python tests.py
